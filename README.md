@@ -1,2 +1,3 @@
-# curso_react_UFCD10790
-Reposotório de formação
+# feedback application
+descrição : uma aplicação da formação
+Funcionalidades : criar conta, fazer login
