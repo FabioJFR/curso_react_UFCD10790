@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Media from './componentes/Media';
+import Comentario from './componentes/Comentario';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
     "1", "2", "3", "4","cinco","seis","sete","oito"
   ];
 
+  /** 
   const comentarios2 = [
     {id: 1, texto: "Comentario um"},
     {id: 2, texto: "Comentario dois"},
@@ -26,6 +28,8 @@ function App() {
     {id: 8, texto: "Comentario oito"},
   ];
 
+  */
+ 
   const show = true;
 
   return (
@@ -46,7 +50,11 @@ function App() {
       ))}
 
     </ul>
+    
+      <Comentario />
 
+    {/** 
+     
     <h5>{atencao.toUpperCase()} : {comentarios.length}</h5>
     <ul>
       {comentarios2.map((comentario) => (
@@ -55,6 +63,7 @@ function App() {
 
     </ul>
 
+    */}
     </>
   );
 }
